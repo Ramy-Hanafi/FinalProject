@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    tools:context=".NoviceBackground">
+
+    <RadioGroup
+        android:id="@+id/backgroundRadioGroup"
+        android:layout_width="341dp"
+        android:layout_height="468dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/acolyteRadio"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:buttonTint="@color/black"
+            android:text="@string/acolyte"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/criminalRadio"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:buttonTint="@color/black"
+            android:text="@string/criminal_spy"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/folkRadio"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:buttonTint="@color/black"
+            android:text="@string/folk_hero"
+            android:textColor="@android:color/black" />
+
+
+        <RadioButton
+            android:id="@+id/nobleRadio"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:buttonTint="@color/black"
+            android:text="@string/noble"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/sageRadio"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:buttonTint="@color/black"
+            android:text="@string/sage"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/soldierRadio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/black"
+            android:text="@string/soldier"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nxtButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="621dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="62dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitles"
+        android:layout_width="301dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/titlefont"
+        android:text="Chooze your Background"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

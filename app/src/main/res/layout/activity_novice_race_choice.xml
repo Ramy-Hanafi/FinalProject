@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    tools:context=".NoviceRaceChoice">
+
+    <RadioGroup
+        android:id="@+id/raceRG2"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="188dp"
+        app:layout_constraintBottom_toTopOf="@+id/nextRaceButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitles">
+
+        <RadioButton
+            android:id="@+id/tieflingRadio2"
+            android:layout_width="145dp"
+            android:layout_height="102dp"
+            android:background="@drawable/tieflingfemaletoken"
+            android:buttonTint="@color/black"
+            android:text="\n\n\n\n\n    Tiefling"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/gnomeRadio2"
+            android:layout_width="145dp"
+            android:layout_height="102dp"
+            android:background="@drawable/gnomemaletoken"
+            android:buttonTint="@color/black"
+            android:text="\n\n\n\n\n    Gnome"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/greatclubRadio2"
+            android:layout_width="145dp"
+            android:layout_height="102dp"
+            android:background="@drawable/dragonbornmaletoken"
+            android:buttonTint="@color/black"
+            android:text="\n\n\n\n\nDragonborn"
+            android:textColor="@android:color/black" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/raceRG"
+        android:layout_width="149dp"
+        android:layout_height="472dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <RadioButton
+            android:id="@+id/clubRadio2"
+            android:layout_width="145dp"
+            android:layout_height="102dp"
+            android:background="@drawable/dwarffemaletoken"
+            android:text="\n\n\n\n\n     Dwarf"
+            android:buttonTint="@color/black"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/handaxeRadio2"
+            android:layout_width="145dp"
+            android:layout_height="102dp"
+            android:background="@drawable/humanmaletoken"
+            android:text="\n\n\n\n\n    Human"
+            android:buttonTint="@color/black"
+
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/lighthammerRadio2"
+            android:layout_width="145dp"
+            android:layout_height="102dp"
+            android:background="@drawable/elfmaletoken"
+            android:text="\n\n\n\n\n         Elf"
+            android:buttonTint="@color/black"
+            android:textColor="@android:color/black" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextRaceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="621dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="62dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/titlefont"
+        android:text="Chooze your Race"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/raceRG2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
