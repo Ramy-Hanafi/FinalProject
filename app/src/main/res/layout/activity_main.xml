@@ -31,6 +31,7 @@
         android:textColorHint="#000000"
         android:inputType="textEmailAddress"
         android:textColor="#000000"
+        android:backgroundTint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +48,7 @@
         android:textColorHint="#000000"
         android:inputType="textPassword"
         android:textColor="#000000"
+        android:backgroundTint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmail" />
@@ -86,6 +88,8 @@
         android:onClick="Email_Window"
         android:text="@string/ForgotPassword"
         android:textIsSelectable="false"
+        android:backgroundTint="#000000"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRegister" />

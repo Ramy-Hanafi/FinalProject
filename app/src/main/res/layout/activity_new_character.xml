@@ -24,6 +24,7 @@
             android:layout_height="102dp"
             android:background="@drawable/tieflingfemaletoken"
             android:buttonTint="@color/black"
+            android:text="\n\n\n\n\n    Tiefling"
             android:textColor="@android:color/black" />
 
         <RadioButton
@@ -31,7 +32,9 @@
             android:layout_width="145dp"
             android:layout_height="102dp"
             android:background="@drawable/gnomemaletoken"
+            android:text="\n\n\n\n\n    Gnome"
             android:buttonTint="@color/black"
+
             android:textColor="@android:color/black" />
 
         <RadioButton
@@ -40,6 +43,7 @@
             android:layout_height="102dp"
             android:background="@drawable/dragonbornmaletoken"
             android:buttonTint="@color/black"
+            android:text="\n\n\n\n\n Dragon Born"
             android:textColor="@android:color/black" />
     </RadioGroup>
 
@@ -60,7 +64,8 @@
             android:layout_height="102dp"
             android:background="@drawable/dwarffemaletoken"
             android:buttonTint="@color/black"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:text="\n\n\n\n\n    Dwarf"/>
 
         <RadioButton
             android:id="@+id/handaxeRadio"
@@ -68,6 +73,7 @@
             android:layout_height="102dp"
             android:background="@drawable/humanmaletoken"
             android:buttonTint="@color/black"
+            android:text="\n\n\n\n\n    Human"
 
             android:textColor="@android:color/black" />
 
@@ -77,6 +83,7 @@
             android:layout_height="102dp"
             android:background="@drawable/elfmaletoken"
             android:buttonTint="@color/black"
+            android:text="\n\n\n\n\n    Elf"
             android:textColor="@android:color/black" />
 
     </RadioGroup>

@@ -1,9 +1,30 @@
 package com.example.finalproj;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.AuthResult;
+
+
+import java.util.HashMap;
+import java.util.Map;
+
+
 
 public class CharacterReview extends AppCompatActivity {
 
@@ -11,11 +32,22 @@ public class CharacterReview extends AppCompatActivity {
     private String charRaceString, charClassString, charBackgroundString, charWeaponString;
     private int str, dex, con, intel, wis, chr;
     private TextView userRace, userClass, userBackgroud, userWeapon, userStr, userDex, userCon, userInt, userWis, userChr;
+    private Button confirmButton;
+    private FirebaseAuth mAuth;
+    private EditText characterName;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_character_review);
+
+        Intent myReviewIntent = new Intent (CharacterReview.this, MainMenu.class);
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+
+
         charBun = getIntent().getExtras();
         charRaceString = charBun.getString("Race");
         charClassString = charBun.getString("Class");
@@ -27,7 +59,21 @@ public class CharacterReview extends AppCompatActivity {
         intel = charBun.getInt("Int");
         wis = charBun.getInt("Wis");
         chr = charBun.getInt("Chr");
-        
+
+        confirmButton=findViewById(R.id.btnConfirm);
+
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        String uid = user.getEmail();
+
+
+
+
+
+        characterName = findViewById(R.id.editTextCharName);
+
+
+
+
         userRace = findViewById(R.id.textViewUserRace);
         userClass = findViewById(R.id.textViewUserClass);
         userBackgroud = findViewById(R.id.textViewUserBackground);
@@ -49,5 +95,51 @@ public class CharacterReview extends AppCompatActivity {
         userInt.setText(String.valueOf(intel));
         userWis.setText(String.valueOf(wis));
         userChr.setText(String.valueOf(chr));
+
+        confirmButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                String CharacterName = characterName.getText().toString();
+
+                Map<String, Object> character = new HashMap<>();
+                character.put("Background", charBackgroundString);
+                character.put("CHR", chr);
+                character.put("Class", charClassString);
+                character.put("DEX", dex);
+                character.put("INT", intel);
+                character.put("Race", charRaceString);
+                character.put("STR", str);
+                character.put("WIS", wis);
+                character.put("Weapon", charWeaponString);
+                character.put("Name", CharacterName);
+                character.put("Creator", uid);
+
+
+// Add a new document with a generated ID
+                db.collection("character")
+                        .add(character)
+                        .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                            @Override
+                            public void onSuccess(DocumentReference documentReference) {
+                                Toast.makeText(getApplicationContext(),"DocumentSnapshot added with ID: " + documentReference.getId(),Toast.LENGTH_LONG).show();
+                                startActivity(myReviewIntent);
+
+                            }
+                        })
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Toast.makeText(getApplicationContext(),"Error adding document",Toast.LENGTH_LONG).show();
+                            }
+                        });
+
+            }
+        });
+
+
+
+
     }
 }
