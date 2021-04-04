@@ -42,6 +42,8 @@ com/example/finalproj/CharacterReview.java
  com.example.finalproj.CharacterReview$1$2
 com/example/finalproj/MainMenu.java
  com.example.finalproj.MainMenu
+com/example/finalproj/ViewCharacterPdf.java
+ com.example.finalproj.ViewCharacterPdf
 com/example/finalproj/RuleOutline.java
  com.example.finalproj.RuleOutline
 com/example/finalproj/RegisterActivity.java

@@ -8,13 +8,42 @@
     tools:context=".ViewCharacterActivity">
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txtHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/titlefont"
         android:text="@string/ViewCharacter"
+        android:textColor="#000000"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/char1txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/titlefont"
+        android:text="Char Name: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHeader" />
+
+    <Button
+        android:id="@+id/btnViewPDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="View Pdf"
+        android:onClick="viewPDF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/char1txt"
+        app:layout_constraintStart_toEndOf="@+id/char1txt" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

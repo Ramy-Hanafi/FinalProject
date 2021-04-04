@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".NoviceBackground"></activity>
+        <activity android:name=".ViewCharacterPdf"></activity>
+        <activity android:name=".NoviceBackground" />
         <activity android:name=".NoviceWeaponChoice" />
         <activity android:name=".NoviceRaceChoice" />
         <activity android:name=".CharacterReview" />
