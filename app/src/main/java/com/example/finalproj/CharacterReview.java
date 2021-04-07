@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,6 +36,8 @@ public class CharacterReview extends AppCompatActivity {
     private Button confirmButton;
     private FirebaseAuth mAuth;
     private EditText characterName;
+    private RadioButton publicButton;
+    private Boolean publicCharacter;
 
 
     @Override
@@ -59,6 +62,8 @@ public class CharacterReview extends AppCompatActivity {
         intel = charBun.getInt("Int");
         wis = charBun.getInt("Wis");
         chr = charBun.getInt("Chr");
+
+        publicButton = findViewById(R.id.radioButtonPrivate);
 
         confirmButton=findViewById(R.id.btnConfirm);
 
@@ -96,6 +101,10 @@ public class CharacterReview extends AppCompatActivity {
         userWis.setText(String.valueOf(wis));
         userChr.setText(String.valueOf(chr));
 
+
+
+
+
         confirmButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -111,10 +120,19 @@ public class CharacterReview extends AppCompatActivity {
                 character.put("INT", intel);
                 character.put("Race", charRaceString);
                 character.put("STR", str);
+                character.put("CON", con);
                 character.put("WIS", wis);
                 character.put("Weapon", charWeaponString);
                 character.put("Name", CharacterName);
                 character.put("Creator", uid);
+                if (publicButton.isChecked())
+                    publicCharacter = true;
+                else
+                    publicCharacter = false;
+                if (publicCharacter == true)
+                    character.put("Public", true);
+                else
+                    character.put("Public", false);
 
 
 // Add a new document with a generated ID

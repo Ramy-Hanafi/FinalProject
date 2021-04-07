@@ -1775,6 +1775,7 @@ drawable warlock
 drawable warlocktoken
 drawable wizard
 drawable wizardtoken
+font seagram
 font titlefont
 id ALT
 id BOTTOM_END
@@ -1893,7 +1894,6 @@ id btnRegister
 id btnRegisterComplete
 id btnStrMinus
 id btnStrPlus
-id btnViewPDF
 id btnWisMinus
 id btnWisPlus
 id button2
@@ -1901,6 +1901,8 @@ id button3
 id button4
 id button5
 id buttonPanel
+id buttonRecyclerEdit
+id buttonRecyclerPDF
 id cache_measures
 id cancel_action
 id cancel_button
@@ -1909,9 +1911,9 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
-id char1txt
 id charImgView
 id charNameBut
+id characterSearchRecycler
 id checkbox
 id checked
 id chip
@@ -1982,6 +1984,7 @@ id easeInOut
 id easeOut
 id editTextCharName
 id editTextEmail
+id editTextTags
 id edit_query
 id elastic
 id end
@@ -2162,6 +2165,7 @@ id raceRG2
 id raceRadioGroup
 id raceRadioGroup2
 id radio
+id radioButtonPrivate
 id radioGroup
 id rangerRadio
 id ratio
@@ -2186,6 +2190,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchButton
 id search_badge
 id search_bar
 id search_button
@@ -2260,6 +2265,8 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView4
+id textView5
 id textViewBackground
 id textViewCHR
 id textViewCON
@@ -2273,6 +2280,7 @@ id textViewINT
 id textViewInt
 id textViewName
 id textViewRace
+id textViewRecyclerName
 id textViewRegister
 id textViewRemaing
 id textViewSTR
@@ -2411,6 +2419,7 @@ layout activity_character_review
 layout activity_class_page_char_creation
 layout activity_main
 layout activity_main_menu
+layout activity_name_recyclerview_item
 layout activity_new_character
 layout activity_novice_background
 layout activity_novice_race_choice
@@ -2418,6 +2427,7 @@ layout activity_novice_weapon_choice
 layout activity_recommended_character
 layout activity_register
 layout activity_rules
+layout activity_search_character2
 layout activity_stat_char_creation
 layout activity_view_character
 layout activity_view_character_pdf

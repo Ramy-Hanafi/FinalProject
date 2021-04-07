@@ -153,8 +153,8 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void plusStr(View view) {
-        if(str >= 15){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 15",
+        if(str >= 20){
+            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
                     Toast.LENGTH_SHORT).show();
             return;
         }
@@ -170,8 +170,8 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PlusDex(View view) {
-        if(dex >= 15){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 15",
+        if(dex >= 20){
+            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
                     Toast.LENGTH_SHORT).show();
             return;
         }
@@ -187,8 +187,8 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PlusCon(View view) {
-        if(con >= 15){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 15",
+        if(con >= 20){
+            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
                     Toast.LENGTH_SHORT).show();
             return;
         }
@@ -204,8 +204,8 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PlusInt(View view) {
-        if(intel >= 15){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 15",
+        if(intel >= 20){
+            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
                     Toast.LENGTH_SHORT).show();
             return;
         }
@@ -221,8 +221,8 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PLusWis(View view) {
-        if(wis >= 15){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 15",
+        if(wis >= 20){
+            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
                     Toast.LENGTH_SHORT).show();
             return;
         }
@@ -238,8 +238,8 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PlusChr(View view) {
-        if(chr >= 15){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 15",
+        if(chr >= 20){
+            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
                     Toast.LENGTH_SHORT).show();
             return;
         }
