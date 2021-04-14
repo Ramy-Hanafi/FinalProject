@@ -1,9 +1,9 @@
 com/example/finalproj/NoviceBackground.java
  com.example.finalproj.NoviceBackground
  com.example.finalproj.NoviceBackground$1
-com/example/finalproj/SearchCharacterActivity.java
- com.example.finalproj.SearchCharacterActivity
- com.example.finalproj.SearchCharacterActivity$1
+com/example/finalproj/BackgroundCharCreation.java
+ com.example.finalproj.BackgroundCharCreation
+ com.example.finalproj.BackgroundCharCreation$1
 com/example/finalproj/RuleAdapter.java
  com.example.finalproj.RuleAdapter
  com.example.finalproj.RuleAdapter$RuleViewHolder
@@ -28,10 +28,9 @@ com/example/finalproj/CharacterAbridgedActivity.java
  com.example.finalproj.CharacterAbridgedActivity$3
  com.example.finalproj.CharacterAbridgedActivity$4
  com.example.finalproj.CharacterAbridgedActivity$5
-com/example/finalproj/ViewCharacterActivity.java
- com.example.finalproj.ViewCharacterActivity
- com.example.finalproj.ViewCharacterActivity$1
- com.example.finalproj.ViewCharacterActivity$2
+com/example/finalproj/WeaponCharCreation.java
+ com.example.finalproj.WeaponCharCreation
+ com.example.finalproj.WeaponCharCreation$1
 com/example/finalproj/NewCharacterActivity.java
  com.example.finalproj.NewCharacterActivity
  com.example.finalproj.NewCharacterActivity$1
@@ -71,9 +70,12 @@ com/example/finalproj/NoviceRaceChoice.java
  com.example.finalproj.NoviceRaceChoice$1
  com.example.finalproj.NoviceRaceChoice$2
  com.example.finalproj.NoviceRaceChoice$3
-com/example/finalproj/WeaponCharCreation.java
- com.example.finalproj.WeaponCharCreation
- com.example.finalproj.WeaponCharCreation$1
-com/example/finalproj/BackgroundCharCreation.java
- com.example.finalproj.BackgroundCharCreation
- com.example.finalproj.BackgroundCharCreation$1
+com/example/finalproj/SearchCharacterActivity.java
+ com.example.finalproj.SearchCharacterActivity
+ com.example.finalproj.SearchCharacterActivity$1
+ com.example.finalproj.SearchCharacterActivity$2
+ com.example.finalproj.SearchCharacterActivity$3
+com/example/finalproj/ViewCharacterActivity.java
+ com.example.finalproj.ViewCharacterActivity
+ com.example.finalproj.ViewCharacterActivity$1
+ com.example.finalproj.ViewCharacterActivity$2
