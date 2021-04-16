@@ -14,8 +14,8 @@ public class StatCharCreationActivity extends AppCompatActivity {
     private TextView strStat, dexStat, conStat, intStat, wisStat, chrStat, remainingTot;
     private Button strPlus, dexPlus, conPlus, intPlus, wisPlus, chrPlus, strMinus, dexMinus, conMinus, intMinus, wisMinus, chrMinus, nextButton;
     private Bundle charBun;
-    private String charRaceString, charClassString, charBackgroundString, charWeaponString;
-    private int novice;
+    private String charRaceString, charClassString, charBackgroundString, charWeaponString, charID, charName;
+    private int novice, edit;
     private int str = 8, dex = 8, con = 8, intel = 8, wis = 8, chr = 8, remaining = 27;
 
     @Override
@@ -61,6 +61,14 @@ public class StatCharCreationActivity extends AppCompatActivity {
             PresetCharStats();
         }
 
+        edit = charBun.getInt("Edit");
+        if(edit == 1){
+            charName = charBun.getString("Name");
+            charID = charBun.getString("Id");
+            EditChar();
+        }
+
+
 
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +83,9 @@ public class StatCharCreationActivity extends AppCompatActivity {
                 myStatsIntent.putExtra("Int", intel);
                 myStatsIntent.putExtra("Wis", wis);
                 myStatsIntent.putExtra("Chr", chr);
+                myStatsIntent.putExtra("Id", charID);
+                myStatsIntent.putExtra("Edit", edit);
+                myStatsIntent.putExtra("Name", charName);
                 startActivity(myStatsIntent);
             }
         });
@@ -252,6 +263,24 @@ public class StatCharCreationActivity extends AppCompatActivity {
         remaining--;
         chrStat.setText(String.valueOf(chr));
         remainingTot.setText(String.valueOf(remaining));
+    }
+
+    void EditChar(){
+        str = charBun.getInt("Str");
+        con = charBun.getInt("Con");
+        intel = charBun.getInt("Int");
+        wis = charBun.getInt("Wis");
+        chr = charBun.getInt("Chr");
+        dex = charBun.getInt("Dex");
+        remaining = 0;
+        conStat.setText(String.valueOf(con));
+        dexStat.setText(String.valueOf(dex));
+        wisStat.setText(String.valueOf(wis));
+        chrStat.setText(String.valueOf(chr));
+        strStat.setText(String.valueOf(str));
+        intStat.setText(String.valueOf(intel));
+        remainingTot.setText(String.valueOf(remaining));
+
     }
 
     void PresetCharStats(){

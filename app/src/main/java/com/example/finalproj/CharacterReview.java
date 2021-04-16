@@ -30,9 +30,10 @@ import java.util.Map;
 public class CharacterReview extends AppCompatActivity {
 
     private Bundle charBun;
-    private String charRaceString, charClassString, charBackgroundString, charWeaponString;
+    private String charRaceString, charClassString, charBackgroundString, charWeaponString, charName, charID;
     private int str, dex, con, intel, wis, chr;
     private TextView userRace, userClass, userBackgroud, userWeapon, userStr, userDex, userCon, userInt, userWis, userChr;
+    private int edit;
     private Button confirmButton;
     private FirebaseAuth mAuth;
     private EditText characterName;
@@ -48,9 +49,7 @@ public class CharacterReview extends AppCompatActivity {
         Intent myReviewIntent = new Intent (CharacterReview.this, MainMenu.class);
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
-
-
-
+        characterName = findViewById(R.id.editTextCharName);
         charBun = getIntent().getExtras();
         charRaceString = charBun.getString("Race");
         charClassString = charBun.getString("Class");
@@ -62,10 +61,18 @@ public class CharacterReview extends AppCompatActivity {
         intel = charBun.getInt("Int");
         wis = charBun.getInt("Wis");
         chr = charBun.getInt("Chr");
+        edit = charBun.getInt("Edit");
+        if (edit == 1){
+            charName = charBun.getString("Name");
+            charID = charBun.getString("Id");
+            characterName.setText(charName);
+        }
 
         publicButton = findViewById(R.id.radioButtonPrivate);
 
         confirmButton=findViewById(R.id.btnConfirm);
+
+
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String uid = user.getEmail();
@@ -74,7 +81,7 @@ public class CharacterReview extends AppCompatActivity {
 
 
 
-        characterName = findViewById(R.id.editTextCharName);
+
 
 
 
@@ -136,22 +143,39 @@ public class CharacterReview extends AppCompatActivity {
 
 
 // Add a new document with a generated ID
-                db.collection("character")
-                        .add(character)
-                        .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-                            @Override
-                            public void onSuccess(DocumentReference documentReference) {
-                                Toast.makeText(getApplicationContext(),"DocumentSnapshot added with ID: " + documentReference.getId(),Toast.LENGTH_LONG).show();
-                                startActivity(myReviewIntent);
 
-                            }
-                        })
-                        .addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(getApplicationContext(),"Error adding document",Toast.LENGTH_LONG).show();
-                            }
-                        });
+                if(edit == 1){
+                    db.collection("character").document(charID).update("Background", charBackgroundString);
+                    db.collection("character").document(charID).update("CHR", chr);
+                    db.collection("character").document(charID).update("Class", charClassString);
+                    db.collection("character").document(charID).update("DEX", dex);
+                    db.collection("character").document(charID).update("INT", intel);
+                    db.collection("character").document(charID).update("Race", charRaceString);
+                    db.collection("character").document(charID).update("STR", str);
+                    db.collection("character").document(charID).update("CON", con);
+                    db.collection("character").document(charID).update("WIS", wis);
+                    db.collection("character").document(charID).update("Weapon", charWeaponString);
+                    db.collection("character").document(charID).update("Name", CharacterName);
+                    Toast.makeText(getApplicationContext(),"Character: " + charName + " successfully updated",Toast.LENGTH_LONG).show();
+                    startActivity(myReviewIntent);
+                }else {
+                    db.collection("character")
+                            .add(character)
+                            .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                                @Override
+                                public void onSuccess(DocumentReference documentReference) {
+                                    Toast.makeText(getApplicationContext(), "DocumentSnapshot added with ID: " + documentReference.getId(), Toast.LENGTH_LONG).show();
+                                    startActivity(myReviewIntent);
+
+                                }
+                            })
+                            .addOnFailureListener(new OnFailureListener() {
+                                @Override
+                                public void onFailure(@NonNull Exception e) {
+                                    Toast.makeText(getApplicationContext(), "Error adding document", Toast.LENGTH_LONG).show();
+                                }
+                            });
+                }
 
             }
         });
