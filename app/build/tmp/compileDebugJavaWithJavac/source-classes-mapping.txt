@@ -1,0 +1,98 @@
+com/example/finalproj/NoviceBackground.java
+ com.example.finalproj.NoviceBackground
+ com.example.finalproj.NoviceBackground$1
+com/example/finalproj/BackgroundCharCreation.java
+ com.example.finalproj.BackgroundCharCreation
+ com.example.finalproj.BackgroundCharCreation$1
+com/example/finalproj/RuleAdapter.java
+ com.example.finalproj.RuleAdapter
+ com.example.finalproj.RuleAdapter$RuleViewHolder
+com/example/finalproj/UserLogin.java
+ com.example.finalproj.UserLogin
+ com.example.finalproj.UserLogin$1
+ com.example.finalproj.UserLogin$2
+ com.example.finalproj.UserLogin$3
+ com.example.finalproj.UserLogin$4
+com/example/finalproj/ClassPageCharCreation.java
+ com.example.finalproj.ClassPageCharCreation
+ com.example.finalproj.ClassPageCharCreation$1
+ com.example.finalproj.ClassPageCharCreation$2
+ com.example.finalproj.ClassPageCharCreation$3
+com/example/finalproj/StatCharCreationActivity.java
+ com.example.finalproj.StatCharCreationActivity
+ com.example.finalproj.StatCharCreationActivity$1
+com/example/finalproj/CharacterAbridgedActivity.java
+ com.example.finalproj.CharacterAbridgedActivity
+ com.example.finalproj.CharacterAbridgedActivity$1
+ com.example.finalproj.CharacterAbridgedActivity$2
+ com.example.finalproj.CharacterAbridgedActivity$3
+ com.example.finalproj.CharacterAbridgedActivity$4
+ com.example.finalproj.CharacterAbridgedActivity$5
+com/example/finalproj/WeaponCharCreation.java
+ com.example.finalproj.WeaponCharCreation
+ com.example.finalproj.WeaponCharCreation$1
+com/example/finalproj/NewCharacterActivity.java
+ com.example.finalproj.NewCharacterActivity
+ com.example.finalproj.NewCharacterActivity$1
+ com.example.finalproj.NewCharacterActivity$2
+ com.example.finalproj.NewCharacterActivity$3
+com/example/finalproj/character.java
+ com.example.finalproj.character
+com/example/finalproj/NoviceWeaponChoice.java
+ com.example.finalproj.NoviceWeaponChoice
+ com.example.finalproj.NoviceWeaponChoice$1
+com/example/finalproj/CharacterReview.java
+ com.example.finalproj.CharacterReview
+ com.example.finalproj.CharacterReview$1
+ com.example.finalproj.CharacterReview$1$1
+ com.example.finalproj.CharacterReview$1$2
+com/example/finalproj/MainMenu.java
+ com.example.finalproj.MainMenu
+com/example/finalproj/ViewCharacterPdf.java
+ com.example.finalproj.ViewCharacterPdf
+com/example/finalproj/RuleOutline.java
+ com.example.finalproj.RuleOutline
+com/example/finalproj/RegisterActivity.java
+ com.example.finalproj.RegisterActivity
+ com.example.finalproj.RegisterActivity$1
+com/example/finalproj/BuildConfig.java
+ com.example.finalproj.BuildConfig
+com/example/finalproj/RecommendedCharacter.java
+ com.example.finalproj.RecommendedCharacter
+ com.example.finalproj.RecommendedCharacter$1
+com/example/finalproj/RulesActivity.java
+ com.example.finalproj.RulesActivity
+com/example/finalproj/characterAdapter.java
+ com.example.finalproj.characterAdapter
+ com.example.finalproj.characterAdapter$ClickListener
+ com.example.finalproj.characterAdapter$MyViewHolder
+ com.example.finalproj.characterAdapter$MyViewHolder$1
+ com.example.finalproj.characterAdapter$MyViewHolder$2
+com/example/finalproj/NoviceRaceChoice.java
+ com.example.finalproj.NoviceRaceChoice
+ com.example.finalproj.NoviceRaceChoice$1
+ com.example.finalproj.NoviceRaceChoice$2
+ com.example.finalproj.NoviceRaceChoice$3
+com/example/finalproj/SearchCharacterActivity.java
+ com.example.finalproj.SearchCharacterActivity
+ com.example.finalproj.SearchCharacterActivity$1
+ com.example.finalproj.SearchCharacterActivity$10
+ com.example.finalproj.SearchCharacterActivity$11
+ com.example.finalproj.SearchCharacterActivity$12
+ com.example.finalproj.SearchCharacterActivity$13
+ com.example.finalproj.SearchCharacterActivity$2
+ com.example.finalproj.SearchCharacterActivity$3
+ com.example.finalproj.SearchCharacterActivity$4
+ com.example.finalproj.SearchCharacterActivity$5
+ com.example.finalproj.SearchCharacterActivity$6
+ com.example.finalproj.SearchCharacterActivity$7
+ com.example.finalproj.SearchCharacterActivity$8
+ com.example.finalproj.SearchCharacterActivity$9
+com/example/finalproj/ViewCharacterActivity.java
+ com.example.finalproj.ViewCharacterActivity
+ com.example.finalproj.ViewCharacterActivity$1
+ com.example.finalproj.ViewCharacterActivity$2
+ com.example.finalproj.ViewCharacterActivity$3
+ com.example.finalproj.ViewCharacterActivity$4
+ com.example.finalproj.ViewCharacterActivity$5
+ com.example.finalproj.ViewCharacterActivity$6

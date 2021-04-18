@@ -34,7 +34,7 @@ for a higher magic to perfect your arts.</string>
     <string name="soldier"><b>Soldier -</b> Once on the battlefield with combat experience. Their strength and experience is
 an asset to any adventure.</string>
     <string-array name="RaceArray">
-        <item>Any</item>
+        <item>All</item>
         <item>Human</item>
         <item>Elf</item>
         <item>Dwarf</item>
@@ -45,9 +45,9 @@ an asset to any adventure.</string>
     </string-array>
 
     <string-array name="BackgroundArray">
-        <item>Any</item>
+        <item>All</item>
         <item>Acolyte</item>
-        <item>Criminal/Spy</item>
+        <item>Criminal</item>
         <item>Folk</item>
         <item>Noble</item>
         <item>Sage</item>
@@ -56,7 +56,7 @@ an asset to any adventure.</string>
     </string-array>
 
     <string-array name="ClassArray">
-        <item>Any</item>
+        <item>All</item>
         <item>Barbarian</item>
         <item>Bard</item>
         <item>Cleric</item>
