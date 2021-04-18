@@ -1879,6 +1879,7 @@ id barbarianRadio
 id bardRadio
 id barrier
 id baseline
+id basicRules
 id beginOnFirstDraw
 id beginning
 id blocking
@@ -1945,6 +1946,7 @@ id clockwise
 id clubRadio
 id clubRadio2
 id collapseActionView
+id combatRules
 id confirmButton
 id confirm_button
 id container
@@ -2161,6 +2163,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id placeHolder
 id position
 id postLayout
 id progress_circular
@@ -2171,6 +2174,7 @@ id raceRG
 id raceRG2
 id raceRadioGroup
 id raceRadioGroup2
+id raceTraits
 id radio
 id radioButtonPrivate
 id radioGroup
@@ -2317,6 +2321,8 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id theCombatRules
+id theRaceRules
 id theTavernRules
 id tieflingRadio
 id tieflingRadio2

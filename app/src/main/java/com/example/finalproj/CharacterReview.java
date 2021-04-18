@@ -132,10 +132,12 @@ public class CharacterReview extends AppCompatActivity {
                 character.put("Weapon", charWeaponString);
                 character.put("Name", CharacterName);
                 character.put("Creator", uid);
-                if (publicButton.isChecked())
+                if (publicButton.isChecked()) {
                     publicCharacter = true;
-                else
+                }else {
                     publicCharacter = false;
+                }
+
                 if (publicCharacter == true)
                     character.put("Public", true);
                 else
