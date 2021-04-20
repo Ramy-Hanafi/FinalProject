@@ -66,6 +66,10 @@ public class StatCharCreationActivity extends AppCompatActivity {
             charName = charBun.getString("Name");
             charID = charBun.getString("Id");
             EditChar();
+        }else if(edit == 2){
+            charName = charBun.getString("Name");
+            charID = charBun.getString("Id");
+            EditChar();
         }
 
 
