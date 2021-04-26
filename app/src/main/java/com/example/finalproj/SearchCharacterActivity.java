@@ -43,7 +43,7 @@ public class SearchCharacterActivity extends AppCompatActivity {
 
     private List<character> characterList = new ArrayList<>();
     private RecyclerView recyclerView;
-    private characterAdapter adapter;
+    private SearchAdapter adapter;
     private Button searchButton, addButton;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private Spinner raceSpinner, classSpinner, backgroundSpinner;
@@ -77,15 +77,13 @@ public class SearchCharacterActivity extends AppCompatActivity {
 
         myStatsIntent = new Intent(this, StatCharCreationActivity.class);
         recyclerView = (RecyclerView) findViewById(R.id.characterSearchRecycler);
-        adapter = new characterAdapter(characterList, new characterAdapter.ClickListener() {
+        adapter = new SearchAdapter(characterList, new SearchAdapter.TheClickListener() {
             @Override
             public void onViewClicked(int position) {
                 loadChar(position);
-
             }
-
             @Override
-            public void onEditClicked(int position) {
+            public void onAddClicked(int position) {
                 copyCharacter(position);
             }
         });
@@ -102,7 +100,7 @@ public class SearchCharacterActivity extends AppCompatActivity {
         backgroundtext = findViewById(R.id.textView7);
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        String uid = user.getEmail();
+        uid = user.getEmail();
 
         ArrayAdapter<String> myRaceAdapter = new ArrayAdapter<String>(SearchCharacterActivity.this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.RaceArray));
         myRaceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -125,8 +123,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                             Toast.makeText(getApplicationContext(),"Query Made",Toast.LENGTH_LONG).show();
                             for (int i=0; i<myListOfDocuments.size(); i++) {
+                                String charName;
                                 String charID = myListOfDocuments.get(i).getId();
-                                String charName = myListOfDocuments.get(i).get("Name").toString();
+                                String email = myListOfDocuments.get(i).get("Creator").toString();
+                                if(email.equals(uid)){
+                                    charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                }else {
+                                    charName = myListOfDocuments.get(i).get("Name").toString();
+                                }
                                 characterList.add(new character(charID, charName));
                                 adapter.notifyDataSetChanged();
                             }
@@ -169,8 +173,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                                 for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                    String charName;
                                     String charID = myListOfDocuments.get(i).getId();
-                                    String charName = myListOfDocuments.get(i).get("Name").toString();
+                                    String email = myListOfDocuments.get(i).get("Creator").toString();
+                                    if(email.equals(uid)){
+                                        charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                    }else {
+                                        charName = myListOfDocuments.get(i).get("Name").toString();
+                                    }
                                     characterList.add(new character(charID, charName));
                                     adapter.notifyDataSetChanged();
 
@@ -193,8 +203,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                                 for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                    String charName;
                                     String charID = myListOfDocuments.get(i).getId();
-                                    String charName = myListOfDocuments.get(i).get("Name").toString();
+                                    String email = myListOfDocuments.get(i).get("Creator").toString();
+                                    if(email.equals(uid)){
+                                        charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                    }else {
+                                        charName = myListOfDocuments.get(i).get("Name").toString();
+                                    }
                                     characterList.add(new character(charID, charName));
                                     adapter.notifyDataSetChanged();
 
@@ -218,8 +234,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                                 for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                    String charName;
                                     String charID = myListOfDocuments.get(i).getId();
-                                    String charName = myListOfDocuments.get(i).get("Name").toString();
+                                    String email = myListOfDocuments.get(i).get("Creator").toString();
+                                    if(email.equals(uid)){
+                                        charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                    }else {
+                                        charName = myListOfDocuments.get(i).get("Name").toString();
+                                    }
                                     characterList.add(new character(charID, charName));
                                     adapter.notifyDataSetChanged();
 
@@ -243,8 +265,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                                 for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                    String charName;
                                     String charID = myListOfDocuments.get(i).getId();
-                                    String charName = myListOfDocuments.get(i).get("Name").toString();
+                                    String email = myListOfDocuments.get(i).get("Creator").toString();
+                                    if(email.equals(uid)){
+                                        charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                    }else {
+                                        charName = myListOfDocuments.get(i).get("Name").toString();
+                                    }
                                     characterList.add(new character(charID, charName));
                                     adapter.notifyDataSetChanged();
 
@@ -268,8 +296,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                                 for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                    String charName;
                                     String charID = myListOfDocuments.get(i).getId();
-                                    String charName = myListOfDocuments.get(i).get("Name").toString();
+                                    String email = myListOfDocuments.get(i).get("Creator").toString();
+                                    if(email.equals(uid)){
+                                        charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                    }else {
+                                        charName = myListOfDocuments.get(i).get("Name").toString();
+                                    }
                                     characterList.add(new character(charID, charName));
                                     adapter.notifyDataSetChanged();
 
@@ -294,8 +328,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                                 for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                    String charName;
                                     String charID = myListOfDocuments.get(i).getId();
-                                    String charName = myListOfDocuments.get(i).get("Name").toString();
+                                    String email = myListOfDocuments.get(i).get("Creator").toString();
+                                    if(email.equals(uid)){
+                                        charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                    }else {
+                                        charName = myListOfDocuments.get(i).get("Name").toString();
+                                    }
                                     characterList.add(new character(charID, charName));
                                     adapter.notifyDataSetChanged();
 
@@ -321,8 +361,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                                 for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                    String charName;
                                     String charID = myListOfDocuments.get(i).getId();
-                                    String charName = myListOfDocuments.get(i).get("Name").toString();
+                                    String email = myListOfDocuments.get(i).get("Creator").toString();
+                                    if(email.equals(uid)){
+                                        charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                    }else {
+                                        charName = myListOfDocuments.get(i).get("Name").toString();
+                                    }
                                     characterList.add(new character(charID, charName));
                                     adapter.notifyDataSetChanged();
 
@@ -348,8 +394,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                                 for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                    String charName;
                                     String charID = myListOfDocuments.get(i).getId();
-                                    String charName = myListOfDocuments.get(i).get("Name").toString();
+                                    String email = myListOfDocuments.get(i).get("Creator").toString();
+                                    if(email.equals(uid)){
+                                        charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                    }else {
+                                        charName = myListOfDocuments.get(i).get("Name").toString();
+                                    }
                                     characterList.add(new character(charID, charName));
                                     adapter.notifyDataSetChanged();
 
@@ -386,8 +438,14 @@ public class SearchCharacterActivity extends AppCompatActivity {
                             List<DocumentSnapshot> myListOfDocuments = task.getResult().getDocuments();
                             Toast.makeText(getApplicationContext(), "Query Made", Toast.LENGTH_LONG).show();
                             for (int i = 0; i < myListOfDocuments.size(); i++) {
+                                String charName;
                                 String charID = myListOfDocuments.get(i).getId();
-                                String charName = myListOfDocuments.get(i).get("Name").toString();
+                                String email = myListOfDocuments.get(i).get("Creator").toString();
+                                if(email.equals(uid)){
+                                    charName = myListOfDocuments.get(i).get("Name").toString() + "***";
+                                }else {
+                                    charName = myListOfDocuments.get(i).get("Name").toString();
+                                }
                                 characterList.add(new character(charID, charName));
                                 adapter.notifyDataSetChanged();
                             }

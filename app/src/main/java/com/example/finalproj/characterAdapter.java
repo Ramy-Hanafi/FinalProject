@@ -25,6 +25,7 @@ public class characterAdapter extends RecyclerView.Adapter<characterAdapter.MyVi
         void onViewClicked(int position);
 
         void onEditClicked(int position);
+
     }
 
         public static class MyViewHolder extends RecyclerView.ViewHolder {
