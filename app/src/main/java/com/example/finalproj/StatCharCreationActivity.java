@@ -65,6 +65,8 @@ public class StatCharCreationActivity extends AppCompatActivity {
         if(edit == 1){
             charName = charBun.getString("Name");
             charID = charBun.getString("Id");
+            remainingTot.setVisibility(View.GONE);
+            findViewById(R.id.textViewRemaing).setVisibility(View.GONE);
             EditChar();
         }else if(edit == 2){
             charName = charBun.getString("Name");
@@ -93,6 +95,13 @@ public class StatCharCreationActivity extends AppCompatActivity {
                 startActivity(myStatsIntent);
             }
         });
+    }
+
+    /* Function to say that the user is out of point to be used when allocating it to the character stats*/
+    public void noPoints() {
+        Toast.makeText(StatCharCreationActivity.this, "Out of Points!",
+                Toast.LENGTH_SHORT).show();
+        return;
     }
 
     public void minusStr(View view) {
@@ -168,15 +177,22 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void plusStr(View view) {
-        if(str >= 20){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
-                    Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if(remaining <= 0){
-            Toast.makeText(StatCharCreationActivity.this, "Out of Points!",
-                    Toast.LENGTH_SHORT).show();
-            return;
+        if (edit == 1){
+            if(str >= 20){
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+        }else {
+            if (str >= 18) {
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 18",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (remaining <= 0) {
+                noPoints();
+                return;
+            }
         }
         str++;
         remaining--;
@@ -185,15 +201,22 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PlusDex(View view) {
-        if(dex >= 20){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
-                    Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if(remaining <= 0){
-            Toast.makeText(StatCharCreationActivity.this, "Out of Points!",
-                    Toast.LENGTH_SHORT).show();
-            return;
+        if(edit == 1){
+            if(dex >= 20){
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+        }else {
+            if (dex >= 18) {
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 18",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (remaining <= 0) {
+                noPoints();
+                return;
+            }
         }
         dex++;
         remaining--;
@@ -202,15 +225,22 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PlusCon(View view) {
-        if(con >= 20){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
-                    Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if(remaining <= 0){
-            Toast.makeText(StatCharCreationActivity.this, "Out of Points!",
-                    Toast.LENGTH_SHORT).show();
-            return;
+        if (edit == 1){
+            if(con >= 20){
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+        }else {
+            if (con >= 18) {
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 18",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (remaining <= 0) {
+                noPoints();
+                return;
+            }
         }
         con++;
         remaining--;
@@ -219,15 +249,22 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PlusInt(View view) {
-        if(intel >= 20){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
-                    Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if(remaining <= 0){
-            Toast.makeText(StatCharCreationActivity.this, "Out of Points!",
-                    Toast.LENGTH_SHORT).show();
-            return;
+        if (edit == 1){
+            if(intel >= 20){
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+        }else {
+            if (intel >= 18) {
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 18",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (remaining <= 0) {
+                noPoints();
+                return;
+            }
         }
         intel++;
         remaining--;
@@ -236,15 +273,22 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PLusWis(View view) {
-        if(wis >= 20){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
-                    Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if(remaining <= 0){
-            Toast.makeText(StatCharCreationActivity.this, "Out of Points!",
-                    Toast.LENGTH_SHORT).show();
-            return;
+        if (edit == 1){
+            if(wis >= 20){
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+        }else {
+            if (wis >= 18) {
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 18",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (remaining <= 0) {
+                noPoints();
+                return;
+            }
         }
         wis++;
         remaining--;
@@ -253,15 +297,22 @@ public class StatCharCreationActivity extends AppCompatActivity {
     }
 
     public void PlusChr(View view) {
-        if(chr >= 20){
-            Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
-                    Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if(remaining <= 0){
-            Toast.makeText(StatCharCreationActivity.this, "Out of Points!",
-                    Toast.LENGTH_SHORT).show();
-            return;
+        if (edit == 1){
+            if(chr >= 20){
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 20",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+        }else {
+            if (chr >= 18) {
+                Toast.makeText(StatCharCreationActivity.this, "Stat cannot be above 18",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (remaining <= 0) {
+                noPoints();
+                return;
+            }
         }
         chr++;
         remaining--;
