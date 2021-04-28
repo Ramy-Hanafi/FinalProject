@@ -1,6 +1,5 @@
 package com.example.finalproj;
 
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,21 +25,24 @@ public class characterAdapter extends RecyclerView.Adapter<characterAdapter.MyVi
 
         void onEditClicked(int position);
 
+        void onLogClicked(int position);
+
     }
 
         public static class MyViewHolder extends RecyclerView.ViewHolder {
 
             public TextView textViewRecyclerName;
-            public Button viewBut, editBut;
+            public Button viewBut, editBut, logBut;
             public int position;
             private WeakReference<ClickListener> listenerRef;
             public MyViewHolder(View view, ClickListener listener) {
                 super(view);
 
                 listenerRef = new WeakReference<>(listener);
-                textViewRecyclerName =  view.findViewById(R.id.textViewRecyclerName);
+                textViewRecyclerName =  view.findViewById(R.id.logRecyclerDate);
                 viewBut = view.findViewById(R.id.buttonRecyclerPDF);
                 editBut = view.findViewById(R.id.buttonRecyclerEdit);
+                logBut = view.findViewById(R.id.buttonRecyclerLog);
 
                 viewBut.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -55,6 +57,14 @@ public class characterAdapter extends RecyclerView.Adapter<characterAdapter.MyVi
                     public void onClick(View view) {
                         position = getAdapterPosition();
                         listenerRef.get().onEditClicked(getAdapterPosition());
+                    }
+                });
+
+                logBut.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        position = getAdapterPosition();
+                        listenerRef.get().onLogClicked(getAdapterPosition());
                     }
                 });
 

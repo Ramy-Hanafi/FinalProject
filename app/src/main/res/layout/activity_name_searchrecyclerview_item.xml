@@ -18,11 +18,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textViewRecyclerName"
+        app:layout_constraintStart_toEndOf="@+id/logRecyclerDate"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewRecyclerName"
+        android:id="@+id/logRecyclerDate"
         android:layout_width="117dp"
         android:layout_height="37dp"
         android:layout_marginTop="8dp"
@@ -46,7 +46,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonRecyclerPDF"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textViewRecyclerName"
+        app:layout_constraintStart_toEndOf="@+id/logRecyclerDate"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

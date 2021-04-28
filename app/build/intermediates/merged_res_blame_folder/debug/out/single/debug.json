@@ -1,334 +1,346 @@
 [
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dwarffemaletoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\dwarffemaletoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bannerbutton.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\bannerbutton.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\FinalProject428\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_name_searchrecyclerview_item.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_name_searchrecyclerview_item.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_character_abridged.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_character_abridged.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_monk.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\monk.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\font_seagram.ttf.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\font\\seagram.ttf"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\font_titlefont.ttf.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\font\\titlefont.ttf"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_reggirl.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\reggirl.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_class_page_char_creation.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_class_page_char_creation.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "E:\\FinalProject428\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_character_abridged.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_character_abridged.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novice_race_choice.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_novice_race_choice.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sorcerertoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\sorcerertoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bard.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\bard.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\font_titlefont.ttf.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\font\\titlefont.ttf"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dragonbornmaletoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\dragonbornmaletoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rangertoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\rangertoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\FinalProject428\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_plus.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\plus.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_warlock.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\warlock.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\logo.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_penandscroll.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\penandscroll.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ranger.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\ranger.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novice_weapon_choice.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_novice_weapon_choice.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_name_recyclerview_item.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_name_recyclerview_item.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_elfmaletoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\elfmaletoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_minus.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\minus.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rules.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_rules.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_backgroundimage.jpg.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\backgroundimage.jpg"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_barbarian.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\barbarian.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_warlock.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\warlock.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_backgroundimage.jpg.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\backgroundimage.jpg"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fightertoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\fightertoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_fighter.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\fighter.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_row.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\recyclerview_row.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_character_pdf.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_view_character_pdf.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_character_pdf.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_view_character_pdf.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_druidtoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\druidtoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_druid.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\druid.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_menu.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_paladin.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\paladin.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cleric.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\cleric.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_druidtoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\druidtoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_log_recyclerview_item.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_log_recyclerview_item.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_reggirl.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\reggirl.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novice_weapon_choice.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_novice_weapon_choice.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_barbariantoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\barbariantoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_elfmaletoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\elfmaletoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_character_review.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_character_review.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recommended_character.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_recommended_character.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_monktoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\monktoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dwarfbartender.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\dwarfbartender.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "E:\\FinalProject428\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clerictoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\clerictoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_log.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_log.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\logo.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_monktoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\monktoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_paladintoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\paladintoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bard.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\bard.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_weapon_char_creation.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_weapon_char_creation.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\FinalProject428\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wizardtoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\wizardtoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\FinalProject428\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sorcerertoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\sorcerertoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_log.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_new_log.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_minus.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\minus.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_character.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_new_character.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search_character2.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_search_character2.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_paladin.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\paladin.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_barbarian.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\barbarian.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rougetoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\rougetoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_druid.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\druid.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_paladintoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\paladintoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dwarffemaletoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\dwarffemaletoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_character.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_new_character.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_banner.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\banner.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sorcerer.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\sorcerer.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tieflingfemaletoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\tieflingfemaletoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_class_page_char_creation.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_class_page_char_creation.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rules.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_rules.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_character_review.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_character_review.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rogue.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\rogue.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novice_background.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_novice_background.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tieflingfemaletoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\tieflingfemaletoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_warlocktoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\warlocktoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bannerbutton.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\bannerbutton.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_penandscroll.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\penandscroll.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_humanmaletoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\humanmaletoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novice_background.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_novice_background.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rougetoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\rougetoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stat_char_creation.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_stat_char_creation.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_fighter.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\fighter.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_wizard.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\wizard.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gnomemaletoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\gnomemaletoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search_character2.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_search_character2.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bardtoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\bardtoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_background_char_creation.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_background_char_creation.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_menu.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rogue.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\rogue.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cleric.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\cleric.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stat_char_creation.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_stat_char_creation.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fightertoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\fightertoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rangertoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\rangertoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ranger.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\ranger.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sorcerer.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\sorcerer.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\font_seagram.ttf.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\font\\seagram.ttf"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clerictoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\clerictoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\FinalProject428\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\popup.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_monk.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\monk.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gnomemaletoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\gnomemaletoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_barbariantoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\barbariantoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_character.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_view_character.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\FinalProject428\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dwarfbartender.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\dwarfbartender.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_row.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\recyclerview_row.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_background_char_creation.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_background_char_creation.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_plus.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\plus.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_humanmaletoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\humanmaletoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\popup.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_banner.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable-v24\\banner.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wizardtoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\wizardtoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novice_race_choice.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_novice_race_choice.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dragonbornmaletoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\dragonbornmaletoken.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_weapon_char_creation.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_weapon_char_creation.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_character.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_view_character.xml"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_warlocktoken.png.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\drawable\\warlocktoken.png"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_wizard.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable-v24\\wizard.png"
     },
     {
-        "merged": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_name_recyclerview_item.xml.flat",
-        "source": "C:\\Users\\jyang\\StudioProjects\\FinalProject\\app\\src\\main\\res\\layout\\activity_name_recyclerview_item.xml"
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bardtoken.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\drawable\\bardtoken.png"
+    },
+    {
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_name_searchrecyclerview_item.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_name_searchrecyclerview_item.xml"
+    },
+    {
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\FinalProject428\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recommended_character.xml.flat",
+        "source": "E:\\FinalProject428\\app\\src\\main\\res\\layout\\activity_recommended_character.xml"
     }
 ]

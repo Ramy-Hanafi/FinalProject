@@ -1912,6 +1912,7 @@ id button5
 id buttonPanel
 id buttonRecyclerAdd
 id buttonRecyclerEdit
+id buttonRecyclerLog
 id buttonRecyclerPDF
 id cache_measures
 id cancel_action
@@ -1923,7 +1924,7 @@ id chain
 id chains
 id charImgView
 id charNameBut
-id characterSearchRecycler
+id characterLogRecycler
 id checkbox
 id checked
 id chip
@@ -1995,6 +1996,10 @@ id easeInOut
 id easeOut
 id editTextCharName
 id editTextEmail
+id editTextLogComment
+id editTextLogDate
+id editTextLogItems
+id editTextLogStats
 id edit_query
 id elastic
 id end
@@ -2078,6 +2083,10 @@ id line3
 id linear
 id listMode
 id list_item
+id logRecyclerComment
+id logRecyclerDate
+id logRecyclerItem
+id logRecyclerStatBonus
 id maceRadio
 id masked
 id material_clock_display
@@ -2136,6 +2145,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id navigation_header_container
 id never
+id newlogCharNameTxt
 id nextButton
 id nextButtonStats
 id nextRaceButton
@@ -2192,6 +2202,7 @@ id rougeRadio
 id rounded
 id row_index_key
 id sageRadio
+id saveLogButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2202,7 +2213,6 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
-id searchButton
 id search_badge
 id search_bar
 id search_button
@@ -2275,12 +2285,15 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
 id textView2
 id textView3
-id textView4
 id textView5
 id textView6
 id textView7
+id textView8
+id textView9
 id textViewBackground
 id textViewCHR
 id textViewCON
@@ -2294,7 +2307,6 @@ id textViewINT
 id textViewInt
 id textViewName
 id textViewRace
-id textViewRecyclerName
 id textViewRegister
 id textViewRemaing
 id textViewSTR
@@ -2433,11 +2445,14 @@ layout activity_background_char_creation
 layout activity_character_abridged
 layout activity_character_review
 layout activity_class_page_char_creation
+layout activity_log
+layout activity_log_recyclerview_item
 layout activity_main
 layout activity_main_menu
 layout activity_name_recyclerview_item
 layout activity_name_searchrecyclerview_item
 layout activity_new_character
+layout activity_new_log
 layout activity_novice_background
 layout activity_novice_race_choice
 layout activity_novice_weapon_choice

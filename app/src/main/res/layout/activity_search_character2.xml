@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/characterSearchRecycler"
+        android:id="@+id/characterLogRecycler"
         android:layout_width="314dp"
         android:layout_height="372dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         app:layout_constraintVertical_bias="0.149" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/newlogCharNameTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
@@ -57,7 +57,7 @@
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/newlogCharNameTxt" />
 
     <TextView
         android:id="@+id/textView7"
@@ -80,7 +80,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/newlogCharNameTxt"
         app:layout_constraintTop_toBottomOf="@+id/txtHeader" />
 
     <Spinner

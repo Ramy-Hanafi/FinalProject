@@ -24,6 +24,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity android:name="com.example.finalproj.NewLog" />
+        <activity android:name="com.example.finalproj.LogActivity" />
         <activity android:name="com.example.finalproj.SearchCharacterActivity" />
         <activity android:name="com.example.finalproj.ViewCharacterPdf" />
         <activity android:name="com.example.finalproj.NoviceBackground" />

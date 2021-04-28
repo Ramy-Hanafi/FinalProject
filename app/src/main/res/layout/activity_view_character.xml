@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/characterSearchRecycler"
+        android:id="@+id/characterLogRecycler"
         android:layout_width="320dp"
         android:layout_height="548dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.765" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/newlogCharNameTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -42,21 +42,21 @@
         android:text="My Characters"
         android:textColor="#000000"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/characterSearchRecycler"
+        app:layout_constraintBottom_toTopOf="@+id/characterLogRecycler"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtHeader" />
 
     <Button
-        android:id="@+id/searchButton"
+        android:id="@+id/saveLogButton"
         android:layout_width="119dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="Search"
-        app:layout_constraintBottom_toTopOf="@+id/characterSearchRecycler"
+        app:layout_constraintBottom_toTopOf="@+id/characterLogRecycler"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.295"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/newlogCharNameTxt"
         app:layout_constraintTop_toBottomOf="@+id/txtHeader"
         app:layout_constraintVertical_bias="0.0" />
 

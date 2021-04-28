@@ -1,6 +1,5 @@
 package com.example.finalproj;
 
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,7 +36,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.MyViewHold
             super(view);
 
             listenerRef = new WeakReference<>(listener);
-            textViewRecyclerName =  view.findViewById(R.id.textViewRecyclerName);
+            textViewRecyclerName =  view.findViewById(R.id.logRecyclerDate);
             viewBut = view.findViewById(R.id.buttonRecyclerPDF);
             addBut = view.findViewById(R.id.buttonRecyclerAdd);
 

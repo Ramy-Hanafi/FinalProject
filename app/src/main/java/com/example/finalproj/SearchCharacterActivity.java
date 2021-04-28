@@ -76,7 +76,7 @@ public class SearchCharacterActivity extends AppCompatActivity {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
         myStatsIntent = new Intent(this, StatCharCreationActivity.class);
-        recyclerView = (RecyclerView) findViewById(R.id.characterSearchRecycler);
+        recyclerView = (RecyclerView) findViewById(R.id.characterLogRecycler);
         adapter = new SearchAdapter(characterList, new SearchAdapter.TheClickListener() {
             @Override
             public void onViewClicked(int position) {
@@ -91,11 +91,11 @@ public class SearchCharacterActivity extends AppCompatActivity {
                 new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
-        searchButton = findViewById(R.id.searchButton);
+        searchButton = findViewById(R.id.saveLogButton);
         raceSpinner = (Spinner) findViewById(R.id.RaceSpinner);
         classSpinner = (Spinner) findViewById(R.id.ClassSpinner);
         backgroundSpinner = (Spinner) findViewById(R.id.BackgroundSpinner);
-        racetext = findViewById(R.id.textView4);
+        racetext = findViewById(R.id.newlogCharNameTxt);
         classtext = findViewById(R.id.textView6);
         backgroundtext = findViewById(R.id.textView7);
 

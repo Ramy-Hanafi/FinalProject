@@ -73,7 +73,7 @@ public class ViewCharacterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_view_character);
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
-        recyclerView = (RecyclerView) findViewById(R.id.characterSearchRecycler);
+        recyclerView = (RecyclerView) findViewById(R.id.characterLogRecycler);
         adapter = new characterAdapter(characterList, new characterAdapter.ClickListener() {
             @Override
             public void onViewClicked(int position) {
@@ -84,14 +84,19 @@ public class ViewCharacterActivity extends AppCompatActivity {
             public void onEditClicked(int position) {
                 editChar(position);
             }
+
+            @Override
+            public void onLogClicked(int position) {
+                logChar(position);
+            }
         });
         RecyclerView.LayoutManager layoutManager =
                 new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
-        searchButton = findViewById(R.id.searchButton);
+        searchButton = findViewById(R.id.saveLogButton);
 
-        recyclerName = findViewById(R.id.textViewRecyclerName);
+        recyclerName = findViewById(R.id.logRecyclerDate);
 
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
@@ -287,5 +292,53 @@ public class ViewCharacterActivity extends AppCompatActivity {
                         Log.d(TAG, e.toString());
                     }
                 });
+    }
+
+    public void logChar(int position)
+    {
+        Intent myStatsIntent = new Intent(this, LogActivity.class);
+        character character = adapter.characterList.get(position);
+        charDocName = character.getCharacterID();
+        charRef = db.collection("character").document(charDocName);
+        charRef.get()
+                .addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+                    @Override
+                    public void onSuccess(DocumentSnapshot documentSnapshot) {
+                        if (documentSnapshot.exists()) {
+                            if (documentSnapshot.exists()) {
+                                race = documentSnapshot.getString(KEY_RACE);
+                                charClass = documentSnapshot.getString(KEY_CLASS);
+                                backg = documentSnapshot.getString(KEY_BACKGROUND);
+                                weap = documentSnapshot.getString(KEY_WEAPON);
+                                name = documentSnapshot.getString(KEY_NAME);
+                                str = documentSnapshot.getLong(KEY_STRENGTH).intValue();
+                                con = documentSnapshot.getLong(KEY_CON).intValue();
+                                intel = documentSnapshot.getLong(KEY_INTELLIGENCE).intValue();
+                                chr = documentSnapshot.getLong(KEY_CHARISMA).intValue();
+                                dex = documentSnapshot.getLong(KEY_DEXTERITY).intValue();
+                                wis = documentSnapshot.getLong(KEY_WISDOM).intValue();
+
+                            } else {
+                                Toast.makeText(ViewCharacterActivity.this, "Document does not exist", Toast.LENGTH_SHORT).show();
+                            }
+
+                        }
+                        myStatsIntent.putExtra("Race", race);
+                        myStatsIntent.putExtra("Class", charClass);
+                        myStatsIntent.putExtra("Background", backg);
+                        myStatsIntent.putExtra("Weapon", weap);
+                        myStatsIntent.putExtra("Str", str);
+                        myStatsIntent.putExtra("Dex", dex);
+                        myStatsIntent.putExtra("Con", con);
+                        myStatsIntent.putExtra("Int", intel);
+                        myStatsIntent.putExtra("Wis", wis);
+                        myStatsIntent.putExtra("Chr", chr);
+                        myStatsIntent.putExtra("Edit", 1);
+                        myStatsIntent.putExtra("Id", charDocName);
+                        myStatsIntent.putExtra("Name", name);
+                        startActivity(myStatsIntent);
+                    }
+                });
+
     }
 }
